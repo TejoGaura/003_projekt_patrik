@@ -1,0 +1,175 @@
+//*{outline: 2px solid red}
+//
+//IMPORTS SASS FILES
+//
+@import 'variables';	//variables
+@import 'mixins';		//functions and mixins
+@import 'general';		//global rules
+@import 'style';		//global style rules
+@import 'header';		//top header (social icons nav)
+@import 'navigation';	//navigation rules
+@import 'banner';		//main text banner
+@import 'footer';		//footer rules
+
+
+
+
+
+// /* Start Style*/
+// .main__menu {
+//   display: grid;
+//   grid-template-columns: repeat(5, 1fr);
+//   @media (max-width: 900px) {
+//     grid-template-columns: 1fr;
+//     max-width: 300px;
+//     //opacity:0;
+//   }
+//   .list-item {
+//     &:hover {
+//       .drop-menu li {
+//         display: block;
+//       }
+//       .menu-1 {
+//         perspective: 1000px;
+//         .drop-item {
+//           opacity: 0;
+//           @for $i from 1 through 4 {
+//             &:nth-child(#{$i}) {
+//               animation-name: leftToRight;
+//               animation-duration: 400ms;
+//               animation-delay: (150ms * $i) - 300;
+//               animation-timing-function: ease-in-out;
+//               animation-fill-mode: forwards;
+//             }
+//           }
+//         }
+//       }
+//       .menu-2 {
+//         perspective: 1000px;
+//         .drop-item {
+//           opacity: 0;
+//           transform-origin: top center;
+//           @for $i from 1 through 4 {
+//             &:nth-child(#{$i}) {
+//               animation-name: topToBottom;
+//               animation-duration: 400ms;
+//               animation-delay: (150ms * $i) - 300;
+//               animation-timing-function: ease-in-out;
+//               animation-fill-mode: forwards;
+//             }
+//           }
+//         }
+//       }
+//       .menu-3 {
+//         perspective: 1000px;
+//         .drop-item {
+//           opacity: 0;
+//           @for $i from 1 through 4 {
+//             &:nth-child(#{$i}) {
+//               animation-name: itemBounce;
+//               animation-duration: 400ms;
+//               animation-delay: (150ms * $i) - 300;
+//               animation-timing-function: ease-in-out;
+//               animation-fill-mode: forwards;
+//             }
+//           }
+//         }
+//       }
+//       .menu-4 {
+//         perspective: 1000px;
+//         .drop-item {
+//           opacity: 0;
+//           transform-origin: top right;
+//           @for $i from 1 through 4 {
+//             &:nth-child(#{$i}) {
+//               animation-name: bottomToTop;
+//               animation-duration: 400ms;
+//               animation-delay: (150ms * $i) - 300;
+//               animation-timing-function: ease-in-out;
+//               animation-fill-mode: forwards;
+//             }
+//           }
+//         }
+//       }
+//     }
+//     a {
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       flex-direction: column;
+//       height: 200px;
+//       color: #fff;
+//       cursor: unset;
+//       &:hover {
+//         cursor: pointer;
+//       }
+
+//     .drop-menu {
+//       .drop-item {
+//         display: none;
+//         a {
+//           height: 80px;
+//           font: 300 22px $font-main;
+//           &.item--1 {
+//             background: $color-hover;
+//           }
+//           &.item--2 {
+//             background: $color-hover;
+//           }
+//           &.item--3 {
+//             background: $color-hover;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @keyframes leftToRight {
+//   0% {
+//     opacity: 0;
+//     transform: rotateY(-90deg) translateY(30px);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: rotateY(0deg) translateY(0px);
+//   }
+// }
+
+// @keyframes topToBottom {
+//   0% {
+//     opacity: 0;
+//     transform: rotateX(-90deg);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: rotateX(0deg);
+//   }
+// }
+
+
+// @keyframes itemBounce {
+//     0% {
+//         opacity:0;
+//         transform:scale(0.3) translateY(-60px);
+//     }
+//     80% {
+//         transform:scale(1.2) translateY(10px);
+//     }
+//     100% {
+//         opacity:1;
+//         transform:scale(1) translateY(0px);
+//     }
+// }
+
+
+// @keyframes bottomToTop {
+//     0% {
+//         opacity:0;
+//         transform:rotate(-30deg);
+//     }
+//     100% {
+//         opacity:1;
+//         transform:rotate(0deg);
+//     }
+// }}

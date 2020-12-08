@@ -1,0 +1,75 @@
+//TEXT-BANNER
+section {
+	position: relative;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	//transform: translate(0%, -40%);
+}
+
+.text-banner{
+	margin: em(100) auto;
+	text-align: center;
+	font-family: $font-secondary;
+	visibility: visible;
+}
+
+.text-banner p {
+	font-weight: 400;
+	font-size: 110%;
+	margin: em(60) auto;
+	visibility: visible;
+	animation-duration: 1s;
+	animation-delay: 0.5s;
+	animation-name: fadeInUp;
+}
+
+.button-holder {
+	margin: em(30) auto;
+	font-size: 90%;
+	font-weight: 600;
+	letter-spacing: 0.15em;
+	text-shadow: none;
+	visibility: visible;
+	animation-duration: 1s;
+	animation-delay: 0.7s;
+	animation-name: fadeInUp;
+}
+
+.main-btn {
+	position: relative;
+	display: inline-block;
+	margin: 0 em(12);
+ 	padding: em(20) em(40);
+ 	line-height: 1.6;
+ 	border-radius: em(5);
+ 	opacity: .9;
+ 	transition: all .12s ease-out;
+}
+
+.main-btn:first-child {
+ 	background-color: $color-btn1;
+}
+
+.main-btn:last-child {
+	background-color: $color-btn2;
+	color: $color-btn1;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+	opacity: 1;
+	background: $color-hover;
+	//transition: ease 0.2s;
+	box-shadow: em(8) em(10) em(5) em(-8) $color-shadow;
+	transform: scale(1.04);
+}
+
+.main-btn:last-child:hover,
+.main-btn:last-child:focus {
+	color: $color-text;
+}
+
+section.first-page_text {
+	height: 100vh;
+}

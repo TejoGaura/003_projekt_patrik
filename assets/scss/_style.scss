@@ -1,0 +1,22 @@
+//
+//STYLE
+//
+body {
+  	font: {
+  		size: $font-size-base;
+		family: $font-main;
+  	}
+	color: $color-text;
+	text-shadow: em(2) em(2) em(2) $color-shadow;
+}
+
+.bg-image {
+	background-image: url('../img/background01.jpg');
+	background-size: cover;
+	background-position: 50% 20%;
+	height: 100vh;
+}
+
+ul {
+	padding-left: 0;
+}

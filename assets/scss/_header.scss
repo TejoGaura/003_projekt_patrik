@@ -1,0 +1,42 @@
+//TOP-HEADER (SOCIAL-ICONS)
+.social-icon {
+  list-style: none;
+  display: block;
+  color: $color-text;
+  font-size: 110%;
+  transition: all .2s ease-out;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+	color: $color-select;
+	transform: scale(1.2);
+}
+
+.selected a,
+.nav-btn:hover,
+.nav-btn:focus {
+	color: $color-select;
+	transform: scale(1.2);
+}
+
+li {
+	display: inline-block;
+	padding: em(5) em(12);
+}
+
+.socials {
+	float: left;
+}
+
+header {
+	height: 3em;
+	margin: auto 0;
+	display: flex;
+	align-items: center;
+	border-bottom: em(1) solid $color-border;
+	//-webkit-box-shadow: 0 2px 2px -2px $color-shadow;
+	//-moz-box-shadow: 0 2px 2px -2px $color-shadow;
+	box-shadow: 0 em(10) em(5) em(-8) $color-shadow;
+	//justify-content: center;
+}

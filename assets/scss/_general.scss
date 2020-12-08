@@ -1,0 +1,28 @@
+//
+//GENERAL
+//
+html {box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit;}
+
+.container {
+  @include container(em(1150));
+  padding: 0 em(20);
+  @include clearfix;
+}
+
+a {
+	text-decoration: none;
+	color: $color-text;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+@include selection {
+	background-color: $color-sel;
+	color: #fff;
+}
